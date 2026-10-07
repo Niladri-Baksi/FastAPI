@@ -1,0 +1,11 @@
+Maintaining the records of patient (CRUD) by the doctor
+The app stores the profile of each patient in json instead of a db(id,name,city,age,gender,height,weight,bmi,verdict)
+we're going to create an api with endpoints like 
+
+/create
+/view ##view all
+/view/patient_id ##view particular patient id
+/update/patient_id
+/delete/patient_id
+
+this api can be used to dev an app later
